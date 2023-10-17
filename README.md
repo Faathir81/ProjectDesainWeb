@@ -9,7 +9,7 @@ Konsultan IT adalah profesional yang ahli dalam bidang teknologi informasi (TI) 
 - Titin
 - Faathir Akbar Nugroho 4522210033
 - Daffa
-- Raihan
+- Mohammad Raihan Azhar 4522210048
 
 ## Mockup dan Wireframe kami
 https://www.figma.com/file/YJnKIl0l0JRCs4xEqCDSDD/Desain-Web?type=design&node-id=0%3A1&mode=design&t=pQXzeOrLfMnOlR2j-1
