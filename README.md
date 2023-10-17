@@ -6,7 +6,7 @@ Konsultan IT adalah profesional yang ahli dalam bidang teknologi informasi (TI) 
 
 ## Anggota Kelompok kami
 - Leni
-- Titin
+- Titin Sugihartini 4522210004
 - Faathir Akbar Nugroho 4522210033
 - Daffa
 - Raihan
