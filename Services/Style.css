@@ -1,0 +1,345 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+
+body{
+    background-color: #171C7E;
+    font: 16px/28px;
+    color: white;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-left: 150px;
+    margin-top: 65px;
+}
+
+.container .header .judul{
+    font-weight: bold;
+}
+
+.container .header ul li{
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    font-weight: medium;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.header a:hover{
+    background-color: white;
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -28px;
+    right: 50px;
+}
+
+#servicesimage{
+    position: relative;
+    top: 100px;
+    left: 890px;
+    width: 500px;
+    height: 440px;
+}
+
+#headingsatu{
+    width: 1440px;
+    height: 700px;
+}
+
+#headingsatu .container1{
+    position: absolute;
+    top: 350px;
+    left: 150px;
+}
+
+#headingsatu .container1 h3{
+    font-weight: bold;
+    font-size: 42px;
+    display: inline-block;
+    width: 410px;
+    line-height: 1.2;
+}
+
+#headingsatu .container1 h1{
+    line-height: 1.2;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+#headingsatu .container1 p{
+    display: inline-block;
+    width: 350px;
+    line-height: 1.2;
+}
+
+#profil{
+    background-color: #D1D2E5;
+    height: 680px;
+    color: black;
+    padding-top: 35px;
+}
+
+#profil h1{
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 35px;
+    line-height: 1.3;
+}
+
+#profil h1 span{
+    color: white;
+}
+
+#profil p{
+    text-align: center;
+    font-size: 26px;
+    font-weight: light;
+    line-height: 1.8;
+}
+
+#profiltigaorang{
+    display: flex;
+    width: 800px;
+    height: 350px;
+    margin: 65px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nerd{
+    justify-content: space-between;
+    width: 400px;
+}
+
+.nerd1{
+    width: 250px;
+}
+
+.list{
+    width: 250px;
+    height: 300px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.bolditem{
+    font-weight: bold;
+}
+
+#pilihanmenu{
+    padding-top: 35px;
+    background-color: #5A5B92;
+    height: 760px;
+}
+
+#pilihanmenu h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 38px;
+}
+
+.boldbiru{
+    color: #35DBE6;
+}
+
+.pilihanmenu1 a{
+    text-decoration: none;
+}
+
+#pilihanmenu h2{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 23px;
+}
+
+.handphoneimage{
+    position: relative;
+    width: 619px;
+    height: 595px;
+    padding-top: 35px;
+    padding-left: 120px;
+}
+
+#kebutuhan{
+    position: absolute;
+    padding-left: 800px;
+    margin-top: -630px;
+}
+
+#kebutuhan > div{
+    background-color: #243CBB;
+    width: 450px;
+    margin: 40px;
+    padding: 20px 20px;
+    border-radius: 25px;
+}
+
+.pilihanmenu1 li, a{
+    font-weight: bold;
+}
+
+.pilihanmenu1 p{
+    font-weight: thin;
+    font-size: 13px;
+}
+
+.pilihanmenu1{
+    line-height: 1.3;
+}
+
+#brosur{
+    height: 215px;
+    padding-top: 65px;
+}
+
+#brosur h1{
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+
+#brosur .brosur1{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.brosur1 > div{
+    background-color: #2779A3;
+    width: 200px;
+    margin: 40px;
+    padding: 20px 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.brosur1 li a{
+    color: white;
+    text-decoration: none;
+}
+
+#info{
+    background-color: #D1D2E5;
+    display: flex;
+    height: 456px;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 210px;
+    padding-right: 350px;
+}
+
+#info a{
+    text-decoration: none;
+    color: #1A1761;
+    font-weight: lighter;
+}
+
+#info h1{
+    color: #1A1761;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2;
+}
+
+#info h2{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.infoheader p{
+    width: 347px;
+    height: 96px;
+    color: #243CBB;
+    line-height: 1.2;
+}
+
+.infoheader li a{
+    line-height: 1.5;
+}
+
+#CapybaraFixer{
+    margin-top: -38px;
+}
+
+#CapybaraFixer1{
+    margin-top: -15px;
+}
+
+#footer footer p{
+    margin-left: 180px;
+    padding: 25px;
+}
+
+#footer1{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 180px;
+}
+
+#footer1 > div{
+    margin: 10px;
+    margin-top: -40px;
+}
+
+#footer a {
+    text-decoration: none; 
+    color: white;
+    font-weight: lighter;
+    font-size: 13px;
+}
