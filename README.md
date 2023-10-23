@@ -38,37 +38,38 @@ Selamat datang di situs web IT Consult! Situs ini merupakan panduan utama untuk 
 #### Tentang IT Consult
 Halaman ini memberikan informasi umum tentang IT Consult, serta panduan untuk menjelajahi bagian-bagian lain dari situs web ini.
 
-### Layanan
+#### Layanan
 Kami menawarkan berbagai layanan yang dapat membantu Anda memahami dunia digital dengan lebih baik. 
 
-### Keunggulan
+#### Keunggulan
 Pelajari tentang keunggulan kami dan mengapa Anda harus memilih IT Consult sebagai sumber informasi Anda.
 
 ## About
-### Visi & Misi
+#### Visi & Misi
 Dalam bagian ini, Anda akan menemukan visi dan misi IT Consult, serta bagaimana kami berkomitmen untuk membangun kepercayaan pengguna.
 
-### Nilai Utama IT Consult
+#### Nilai Utama IT Consult
 Kami menjelaskan nilai-nilai inti yang menjadi dasar kerja kami dalam memberikan layanan yang berkualitas.
 
-### Tim Pengembang
+#### Tim Pengembang
 Kami perkenalkan tim pengembang kami yang berdedikasi dalam membuat konten berkualitas tinggi dan bermanfaat.
 
 ## Service
-### Untuk Siapa Layanan Digital Ini?
+#### Untuk Siapa Layanan Digital Ini?
 Kami menjelaskan untuk siapa layanan digital ini ditujukan dan bagaimana hal itu dapat memberikan manfaat.
 
-### Beberapa Layanan Digital
+#### Beberapa Layanan Digital
 Kami menguraikan berbagai layanan digital yang kami tawarkan untuk meningkatkan pemahaman Anda.
+
 ## Insight
-### Layanan yang Tersedia
+#### Layanan yang Tersedia
 Halaman ini menjelaskan berbagai layanan yang ditawarkan oleh IT Consult. Dengan ini, Anda dapat dengan mudah memahami apa yang kami sediakan.
 
-### Artikel Terkait Layanan
+#### Artikel Terkait Layanan
 Kami juga menyediakan berbagai artikel yang berkaitan dengan layanan kami. Ini adalah sumber informasi berguna untuk klien potensial.
 
 ## Contact
-### Cara Menghubungi Kami
+#### Cara Menghubungi Kami
 Halaman ini memberikan berbagai metode untuk menghubungi kami. Kami ingin memastikan bahwa Anda memiliki semua informasi yang Anda butuhkan untuk menghubungi kami atau mendapatkan dukungan kapan saja.
 - Email
 - Telepon
