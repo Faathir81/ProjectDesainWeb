@@ -5,7 +5,6 @@ Membuat website mengenai Konsultan IT
 Konsultan IT adalah profesional yang ahli dalam bidang teknologi informasi (TI) dan sistem komputer. Mereka menyediakan layanan konsultasi kepada organisasi untuk membantu mereka mengatasi tantangan TI, meningkatkan efisiensi, dan mencapai tujuan bisnis mereka. Konsultan IT dapat memberikan saran tentang pemilihan perangkat lunak dan perangkat keras, strategi keamanan TI, manajemen proyek TI, dan optimisasi infrastruktur IT. Mereka juga berperan dalam merancang solusi TI yang sesuai dengan kebutuhan unik klien mereka. Konsultan IT yang kompeten dapat membantu organisasi menghadapi perubahan teknologi yang cepat dan memanfaatkan potensi TI untuk pertumbuhan dan kesuksesan bisnis.
 
 # IT Consult Website
-
 Selamat datang di situs web IT Consult! Situs ini merupakan panduan utama untuk memahami berbagai aspek terkait IT Consult.
 
 ## Daftar Isi
@@ -25,6 +24,15 @@ Selamat datang di situs web IT Consult! Situs ini merupakan panduan utama untuk 
    - Jasa layanan yang kami tawarkan untuk membantu Anda memahami lebih lanjut tentang dunia web.
    - [Untuk Siapa Layanan Digital Ini?](#untuk-siapa-layanan-digital-ini)
    - [Beberapa Layanan Digital](#beberapa-layanan-digital)
+     
+4. [Insight](#insight)
+   - Halaman ini memberikan pemahaman tentang layanan yang tersedia di IT Consult.
+   - [Layanan yang Tersedia](#layanan-yang-tersedia)
+   - [Artikel Terkait Layanan](#artikel-terkait-layanan)
+
+5. [Contact](#contact)
+   - Halaman ini berisi informasi yang dapat membantu calon klien berkomunikasi dan mendapatkan informasi lebih lanjut.
+   - [Cara Menghubungi Kami](#cara-menghubungi-kami)
 
 ## Home
 ### Tentang IT Consult
@@ -52,10 +60,23 @@ Kami menjelaskan untuk siapa layanan digital ini ditujukan dan bagaimana hal itu
 
 ### Beberapa Layanan Digital
 Kami menguraikan berbagai layanan digital yang kami tawarkan untuk meningkatkan pemahaman Anda.
+## Insight
+### Layanan yang Tersedia
+Halaman ini menjelaskan berbagai layanan yang ditawarkan oleh IT Consult. Dengan ini, Anda dapat dengan mudah memahami apa yang kami sediakan.
 
-Terima kasih telah mengunjungi situs web IT Consult. Kami berharap Anda akan menemukan informasi yang bermanfaat dan mendukung di sini.
+### Artikel Terkait Layanan
+Kami juga menyediakan berbagai artikel yang berkaitan dengan layanan kami. Ini adalah sumber informasi berguna untuk klien potensial.
 
+## Contact
+### Cara Menghubungi Kami
+Halaman ini memberikan berbagai metode untuk menghubungi kami. Kami ingin memastikan bahwa Anda memiliki semua informasi yang Anda butuhkan untuk menghubungi kami atau mendapatkan dukungan kapan saja.
+- Email
+- Telepon
+- Whatsapp
+- Alamat
+- Formulir Kontak
 
+Terima kasih telah mengunjungi situs web IT Consult. Kami berharap Anda menemukan semua informasi yang Anda butuhkan di sini. Jika Anda memiliki pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami.
 
 ## Anggota Kelompok kami
 - Leni Oktaviani 4522210005
