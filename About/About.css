@@ -1,0 +1,1099 @@
+*, html
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: Arial;
+}
+body
+{
+    background-color: #171C7E;
+    font: 16px/28px;
+    box-sizing: border-box;
+}
+.container
+{
+    margin-left: 150px;
+    margin-top: 65px;
+}
+.container .header .judul
+{
+    font-weight: bold;
+}
+.judul
+{
+    color: white;
+}
+.container .header ul li
+{
+    display: inline-block;
+    margin-right: 80px;
+}
+.header a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: medium;
+    padding: 10px;
+    font-size: 14px;
+}
+.header a:hover
+{
+    background-color: white;
+    color: black;
+}
+.header
+{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -28px;
+    right: 50px;
+}
+.container1
+{
+    background-color: #5A5B92;
+    border: solid  #5A5B92;
+    box-sizing: border-box;
+    height: 510px;
+    width: auto;
+}
+.container1 h1
+{
+    color: white;
+    border: #5A5B92;
+    box-sizing: border-box;
+    margin-left: 150px;
+    margin-top: 70px;
+    position: absolute;
+    font-size: 80px;
+    font-style: bold;
+    
+}
+.profil
+{
+    color: white;
+    border: #5A5B92 ;
+    margin-left: 154.5px;
+    box-sizing: border-box;
+    width: 310px;
+    position: absolute;
+    margin-top: 150px;
+    font-size: 14px;
+    font-style: normal;
+}
+.image1
+{
+    width :350px;
+    height:350px;
+    position: relative;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 820px;
+}
+.container2
+{
+    background-color: #D1D2E5;
+    border: solid #D1D2E5;
+    height: 500px;
+    width: auto;
+    font-family: Arial;
+}
+.container2 h2
+{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    font-size: 35px;
+    margin-top: 50px;
+    font-style: bold;
+}
+.boldwhite
+{
+    color: white;
+}
+.boldhitam
+{
+    color: black;
+}
+.visi
+{
+    border: solid black;
+    box-sizing: border-box;
+    width: 450px;
+    height: 270px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 279px;   
+}
+.visi img
+{
+    margin-top: 30px;
+    margin-left: 211px;
+    margin-bottom: 9px;
+}
+.visi h3
+{
+    display: flex;
+    justify-content: center;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+.visi p
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 17px;
+}
+.misi
+{
+    border: solid black;
+    box-sizing: border-box;
+    width: 450px;
+    height: 270px;
+    border-radius: 10px; 
+    position: relative;
+    margin-top: 50px;
+    margin-left: 779px;
+}
+.misi img
+{
+    margin-top: 30px;
+    margin-left: 207px;
+    margin-bottom: 9px;
+}
+.misi h3
+{
+    display: flex;
+    justify-content: center;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+.misi p
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 17px;
+}
+#nilaiutama
+{
+    background-color:#171C7E;
+    border: solid #171C7E;
+    box-sizing: border-box;
+    color: white;
+    height: 650px;
+    width: auto;
+}
+#nilaiutama h2
+{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 50px;
+    font-style: bold;
+}
+.nilaiutama1 
+{
+    border: solid #171C7E ;
+    box-sizing: border-box;
+    width: 320px;
+    height: 150px;
+    margin-left: 150px;
+    border-radius: 10px; 
+    margin-top: 25px;
+    position: absolute;
+}
+.nilaiutama1 .profesional
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; 
+    margin-left: -60px;
+}
+.nilaiutama1 .profesional h5
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -7px;
+}
+.nilaiutama1 .isi
+{
+   border: solid white;
+   box-sizing: border-box;
+   border-radius: 10px;
+   height: 150px;
+}
+.nilaiutama1 .isi p
+{
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 23px;
+}
+.nilaiutama2 
+{
+    border: solid #171C7E ;
+    box-sizing: border-box;
+    width: 320px;
+    height: 150px;
+    border-radius: 10px; 
+    margin-top: 25px;
+    margin-left: 600px;
+    position: absolute;
+}
+.nilaiutama2 .unggul
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; 
+    margin-left: -60px;
+}
+.nilaiutama2 .unggul h5
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+.nilaiutama2 .isi
+{
+   border: solid white;
+   box-sizing: border-box;
+   border-radius: 10px;
+   height: 150px;
+}
+.nilaiutama2 .isi p
+{
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 23px;
+}
+.nilaiutama3 
+{
+    border: solid #171C7E ;
+    box-sizing: border-box;
+    width: 320px;
+    height: 150px;
+    border-radius: 10px; 
+    margin-top: 25px;
+    margin-left: 1050px;
+    position: relative;
+}
+.nilaiutama3 .integritas
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; 
+    margin-left: -60px;
+}
+.nilaiutama3 .integritas h5
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+.nilaiutama3 .isi
+{
+   border: solid white;
+   box-sizing: border-box;
+   border-radius: 10px;
+   height: 150px;
+}
+.nilaiutama3 .isi p
+{
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 23px;
+}
+.nilaiutama4 
+{
+    border: solid #171C7E ;
+    box-sizing: border-box;
+    width: 320px;
+    height: 150px;
+    border-radius: 10px; 
+    margin-top: 100px;
+    margin-left: 370px;
+    position: absolute;
+}
+.nilaiutama4 .teknologi
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; 
+    margin-left: -60px;
+}
+.nilaiutama4 .teknologi h5
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+.nilaiutama4 .isi
+{
+   border: solid white;
+   box-sizing: border-box;
+   border-radius: 10px;
+   height: 150px;
+}
+.nilaiutama4 .isi p
+{
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 23px;
+}
+.nilaiutama5 
+{
+    border: solid #171C7E ;
+    box-sizing: border-box;
+    width: 350px;
+    height: 150px;
+    border-radius: 10px; 
+    margin-top: 100px;
+    margin-left: 830px;
+    position: relative;
+}
+.nilaiutama5 .pengembangan
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; 
+    margin-left: -30px;
+}
+.nilaiutama5 .pengembangan h5
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+.nilaiutama5 .isi
+{
+   border: solid white;
+   box-sizing: border-box;
+   width: 320px;
+   border-radius: 10px;
+   height: 150px;
+}
+.nilaiutama5 .isi p
+{
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 23px;
+}
+#tim 
+{
+    background-color: #1B134E ;
+    border: solid #1B134E;
+    box-sizing: border-box;
+    color: white;
+    height: 710px;
+    width: auto;
+}
+#tim h2 
+{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 50px;
+    font-style: bold;
+}
+#tim .tim1
+{
+    border: #1B134E;
+    box-sizing: border-box;
+    width: 300px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 175px;
+    font-size: 30px;
+    text-align: center;
+}
+#tim .tim2
+{
+    border: #1B134E;
+    box-sizing: border-box;
+    width: 300px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 30px;
+}
+#tim .tim3
+{
+    border: #1B134E;
+    box-sizing: border-box;
+    width: 300px;
+    position: relative;
+    margin-left: 1025px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 30px;
+}
+#tim .tim4
+{
+    border: #1B134E;
+    box-sizing: border-box;
+    width: 300px;
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+#tim .tim5
+{
+    border: #1B134E;
+    box-sizing: border-box;
+    width: 300px;
+    position: relative;
+    margin-left: 820px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+#info
+{
+    background-color: #D1D2E5;
+    display: flex;
+    height: 456px;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 210px;
+    padding-right: 350px;
+}
+#info a
+{
+    text-decoration: none;
+    color: #1A1761;
+    font-weight: lighter;
+}
+
+#info h1
+{
+    color: #1A1761;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2;
+}
+#info h2
+{
+    font-weight: bold;
+    font-size: 36px;
+}
+.infoheader p
+{
+    width: 347px;
+    height: 96px;
+    color: #243CBB;
+    line-height: 1.2;
+}
+.infoheader li a
+{
+    line-height: 1.5;
+}
+#CapybaraFixer
+{
+    margin-top: -38px;
+}
+#CapybaraFixer h2
+{
+    color: white;
+}
+#CapybaraFixer1
+{
+    margin-top: -15px;
+}
+#CapybaraFixer1 img
+{
+    border:  #D1D2E5;
+    margin-bottom: -3px;
+}
+#footer
+{
+    background-color: #1B134E;
+}
+#footer footer p
+{
+    color: white;
+    margin-left: 180px;
+    padding: 25px;
+}
+#footer1
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 180px;
+}
+#footer1 > div
+{
+    margin: 10px;
+    margin-top: -40px;
+}
+#footer a 
+{
+    text-decoration: none; 
+    color: white;
+    font-weight: lighter;
+    font-size: 13px;
+}
+/* CSS umum yang akan diterapkan di semua perangkat */
+
+/* Media query untuk laptop atau desktop */
+@media (min-width: 1024px) {
+    /* CSS untuk tampilan laptop atau desktop */
+  }
+  
+  /* Media query untuk tablet */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* CSS untuk tampilan tablet */
+.container
+{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.container .header .judul
+{
+    font-weight: bold;
+}
+.judul
+{
+    font-size: 25px;
+    color: white;
+}
+.container .header ul li
+{
+    display: inline-block;
+    margin-right: 30px;
+}
+.header a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: medium;
+    padding: 10px;
+    font-size: 14px;
+}
+.header a:hover
+{
+    background-color: white;
+    color: black;
+}
+.header
+{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -28px;
+    right: 50px;
+}
+.container1
+{
+    background-color: #5A5B92;
+    border: solid  #5A5B92;
+    box-sizing: border-box;
+    height: 510px;
+    width: auto;
+}
+.container1 h1
+{
+    color: white;
+    border: #5A5B92;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-top: 90px;
+    position: absolute;
+    font-size: 45px;
+    font-style: bold;
+    
+}
+.profil
+{
+    color: white;
+    border: #5A5B92 ;
+    margin-left: 53px;
+    box-sizing: border-box;
+    width: 310px;
+    position: absolute;
+    margin-top: 138px;
+    font-size: 12px;
+    font-style: normal;
+}
+.image1
+{
+    width :250px;
+    height:250px;
+    position: relative;
+    display: flex;
+    margin-top: 200px;
+    margin-left: 380px;
+}
+.container2
+{
+    background-color: #D1D2E5;
+    border: solid #D1D2E5;
+    height: 500px;
+    width: auto;
+    font-family: Arial;
+}
+.container2 h2
+{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    font-size: 35px;
+    margin-top: 50px;
+    font-style: bold;
+}
+.visi
+{
+    border: solid black;
+    box-sizing: border-box;
+    width: 300px;
+    height: 270px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;   
+}
+.visi img
+{
+    justify-content: center;
+    margin-left: 135px;
+}
+.visi h3
+{
+    display: flex;
+    justify-content: center;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+.visi p
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+.misi
+{
+    border: solid black;
+    box-sizing: border-box;
+    width: 300px;
+    height: 270px;
+    border-radius: 10px; 
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.misi img
+{
+    justify-content: center;
+    margin-left: 130px;
+}
+.misi h3
+{
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+.misi p
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+#nilaiutama
+{
+    background-color:#171C7E;
+    border: solid #171C7E;
+    box-sizing: border-box;
+    color: white;
+    height: 650px;
+    width: auto;
+}
+#nilaiutama h2
+{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 50px;
+    font-style: bold;
+}
+.nilaiutama1 
+{
+    border: solid #171C7E ;
+    box-sizing: border-box;
+    width: 200px;
+    height: 150px;
+    margin-left: 50px;
+    border-radius: 10px; 
+    margin-top: 25px;
+    position: absolute;
+}
+.nilaiutama1 .profesional
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; 
+    margin-left: -60px;
+}
+.nilaiutama1 .profesional h5
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -7px;
+}
+.nilaiutama1 .isi
+{
+   border: solid white;
+   box-sizing: border-box;
+   border-radius: 10px;
+   height: 130px;
+}
+.nilaiutama1 .isi p
+{
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 23px;
+}
+.nilaiutama2 
+{
+    border: solid #171C7E ;
+    box-sizing: border-box;
+    width: 200px;
+    height: 150px;
+    margin-left: 280px;
+    border-radius: 10px; 
+    margin-top: 25px;
+    position: absolute;
+}
+.nilaiutama2 .unggul
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; 
+    margin-left: -60px;
+}
+.nilaiutama2 .unggul h5
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -7px;
+}
+.nilaiutama2 .isi
+{
+   border: solid white;
+   box-sizing: border-box;
+   border-radius: 10px;
+   height: 130px;
+}
+.nilaiutama2 .isi p
+{
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 23px;
+}
+.nilaiutama3 
+{
+    border: solid #171C7E ;
+    box-sizing: border-box;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px; 
+    margin-top: 25px;
+    margin-left: 510px;
+}
+.nilaiutama3 .integritas
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; 
+    margin-left: -60px;
+}
+.nilaiutama3 .integritas h5
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+.nilaiutama3 .isi
+{
+   border: solid white;
+   box-sizing: border-box;
+   border-radius: 10px;
+   height: 130px;
+}
+.nilaiutama3 .isi p
+{
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 23px;
+} 
+.nilaiutama4 
+{
+    border: solid #171C7E ;
+    box-sizing: border-box;
+    width: 320px;
+    height: 150px;
+    border-radius: 10px; 
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.nilaiutama4 .teknologi
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; 
+    margin-left: -150px;
+}
+.nilaiutama4 .teknologi h5
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+.nilaiutama4 .isi
+{
+   border: solid white;
+   box-sizing: border-box;
+   border-radius: 10px;
+   height: 130px;
+   width: 250px;
+}
+.nilaiutama4 .isi p
+{
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 23px;
+}
+.nilaiutama5 
+{
+    border: solid #171C7E ;
+    box-sizing: border-box;
+    width: 350px;
+    height: 150px;
+    border-radius: 10px; 
+    margin-top: 50px;
+    margin-left: 390px;
+}
+.nilaiutama5 .pengembangan
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; 
+    margin-left: -90px;
+}
+.nilaiutama5 .pengembangan h5
+{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: -4px;
+}
+.nilaiutama5 .isi
+{
+   border: solid white;
+   box-sizing: border-box;
+   width: 320px;
+   border-radius: 10px;
+   height: 130px;
+   width: 260px;
+}
+.nilaiutama5 .isi p
+{
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 23px;
+}
+#tim 
+{
+    background-color: #1B134E ;
+    border: solid #1B134E;
+    box-sizing: border-box;
+    color: white;
+    height: 550px;
+    width: auto;
+}
+#tim img
+{
+    width: 100px;
+}
+#tim h2 
+{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 50px;
+    font-style: bold;
+}
+#tim .tim1
+{
+    border: #1B134E;
+    box-sizing: border-box;
+    width: 250px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+#tim .tim2
+{
+    border: #1B134E;
+    box-sizing: border-box;
+    width: 250px;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+#tim .tim3
+{
+    border: #1B134E;
+    box-sizing: border-box;
+    width: 300px;
+    position: relative;
+    margin-left: 450px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+#tim .tim4
+{
+    border: #1B134E;
+    box-sizing: border-box;
+    width: 300px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+#tim .tim5
+{
+    border: #1B134E;
+    box-sizing: border-box;
+    width: 300px;
+    position: relative;
+    margin-left: 343px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+#info
+{
+    background-color: #D1D2E5;
+    display: flex;
+    height: 350px;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+#info a
+{
+    text-decoration: none;
+    color: #1A1761;
+    font-weight: lighter;
+    font-size: 12px;
+}
+#info h1
+{
+    color: #1A1761;
+    font-weight: bold;
+    font-size: 15px;
+}
+#info h2
+{
+    font-weight: bold;
+    font-size: 36px;
+}
+.infoheader p
+{
+    width: 347px;
+    height: 96px;
+    font-size: 15px;
+    color: #243CBB;
+    line-height: 1.2;
+}
+.infoheader li a
+{
+    line-height: 1.5;
+}
+
+.infoheader img
+{
+    margin-top: 5px;
+    height: 20px;
+    width: 20px;
+}
+#CapybaraFixer
+{
+    margin-top: -38px;
+}
+#CapybaraFixer h2
+{
+    color: white;
+}
+#CapybaraFixer1
+{
+    margin-top: -40px;
+}
+#CapybaraFixer1 img
+{
+    border:  #D1D2E5;
+    margin-bottom: -4px;
+    width: 15px;
+    height: 15px;
+}
+#footer
+{
+    background-color: #1B134E;
+}
+#footer footer p
+{
+    color: white;
+    margin-left: 50px;
+    font-size: 12px;
+    padding: 25px;
+}
+#footer1
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+#footer1 > div
+{
+    margin: 10px;
+    margin-top: -40px;
+}
+#footer a 
+{
+    text-decoration: none; 
+    color: white;
+    font-weight: lighter;
+    margin-right: 10px;
+    font-size: 12px;
+}
+}
+  
+  /* Media query untuk ponsel */
+  @media (max-width: 767px) {
+    /* CSS untuk tampilan ponsel */
+    }
+  
