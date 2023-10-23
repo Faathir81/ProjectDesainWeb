@@ -35,7 +35,7 @@ Selamat datang di situs web IT Consult! Situs ini merupakan panduan utama untuk 
    - [Cara Menghubungi Kami](#cara-menghubungi-kami)
 
 ## Home
-### Tentang IT Consult
+#### Tentang IT Consult
 Halaman ini memberikan informasi umum tentang IT Consult, serta panduan untuk menjelajahi bagian-bagian lain dari situs web ini.
 
 ### Layanan
