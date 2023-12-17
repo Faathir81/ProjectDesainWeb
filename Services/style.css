@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #171c7e;
+}
+
+.navbar,
+.offcanvas-body,
+.offcanvas-header {
+  background-color: #171c7e;
+}
+
+.navbar,
+.offcanvas-title {
+  color: white;
+}
+
+.hero h4 {
+  font-size: 2vw;
+}
+
+.hero h1 {
+  font-size: 5vw;
+}
+
+.hero p {
+  font-size: 1.8vw;
+}
+
+.hero1 {
+  background-color: #d1d2e5;
+}
+
+.hero2 {
+  background-color: #5a5b92;
+}
+
+.hero3 {
+  background-color: #1a1761;
+}
+
+.hero4 {
+  background-color: #d1d2e5;
+}
