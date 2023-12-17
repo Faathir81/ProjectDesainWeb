@@ -1,318 +1,232 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+.body {
+  background-color: #171c7e;
+  color: #fff;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+.container {
+  margin-top: 20px;
 }
+
+/* Navbar */
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-color: #3498db;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+.navbar-nav .nav-link.active {
+  border-bottom: 2px solid #fff;
+}
+
+/* Jumbotron */
+.jumbotron {
+  padding: 67px 0;
+  background-color: #d1d2e5;
+  margin-bottom: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron h1 {
+  color: black;
+  text-align: left;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.jumbotron p {
+  color: black;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+/* Card */
 body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  background-color: #171c7e;
+  color: #fff;
 }
 
-body{
-    background-color: #171C7E;
-    font: 16px/28px;
-    color: white;
-    font-family: arial;
-    box-sizing: border-box;
+.card {
+  background-color: #3498db;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-.container{
-    margin-left: 150px;
-    margin-top: 65px;
+.card:hover {
+  transform: scale(1.05);
 }
 
-.container .header .judul{
-    font-weight: bold;
+.card img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-.container .header ul li{
-    display: inline-block;
-    margin-right: 80px;
+.card-img-top {
+  width: 100%;
+  height: auto;
 }
 
-.header a{
-    text-decoration: none;
-    color: white;
-    font-weight: medium;
-    padding: 10px;
-    font-size: 14px;
+.card-body {
+  text-align: center;
 }
 
-.header a:hover{
-    background-color: white;
-    color: black;
+.card-text {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+/* Maps & Form */
+.maps1,
+.cardbody {
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-.header{
-    display: flex;
-    justify-content: end;
-    position: relative;
-    top: -28px;
-    right: 50px;
+.form-control,
+.btn-primary {
+  border-radius: 10px;
 }
 
-#contactimage{
-    position: relative;
-    top: 100px;
-    left: 890px;
-    width: 400px;
-    height: 300px;
+.alert {
+  margin-bottom: 50px;
+  display: none;
 }
 
-#headingsatu{
-    background-color: #D1D2E5;
-    width: 1440px;
-    height: 500px;
+/* Info Section */
+#info {
+  background-color: #d1d2e5;
+  color: #171c7e;
 }
 
-#headingsatu .container1{
-    position: absolute;
-    top: 250px;
-    left: 150px;
+.container2 {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-#headingsatu .container1 h1{
-    line-height: 100%;
-    font-weight: bold;
-    font-size: 90px;
-    color: black;
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
-#headingsatu .container1 p{
-    display: inline-block;
-    width: 3000px;
-    line-height: 2.0;
-    color: black;
+.infoheader {
+  padding: 15px;
 }
 
-.containerbox{
-    width: auto;
-    height: auto;
-    background-color:#171C7E ;
+h1,
+h2 {
+  margin-bottom: 15px;
 }
 
-.wrapperbox{
-    display: flex;
-    width: 100%;
-    height: auto;
-    background-color: #;
-    color: white;
+.small {
+  font-size: 14px;
 }
 
-.shape {
-    border: 2px solid #171C7E;
-    border-radius: 10px;
-    width: auto; 
-    height: auto;
-    background-color: #3498db; 
-    text-align: center;
-    padding: 20px;
-    border-radius: 20px; 
-    margin: 70px;
-    margin-left:-100px auto;
-}
-.shape img {
-    max-width: 30%;
-    max-height: 30%;
-    border-radius: 10%; 
+.iconlogo1 {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 
-.shape p {
-    color: #fff; 
-    font-size: 18px; 
-    margin-top: 10px; 
+ul li a {
+  color: #171c7e;
+  text-decoration: none;
 }
-.containerform {
-    display: flex;
-    background-color: #171C7E;
-    padding: 20px;
-    border: 2px solid #171C7E; 
-    border-radius: 10px; 
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.iconlogo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+/* Responsif: Atur margin pada kolom agar tidak bersisian di perangkat kecil */
+@media (max-width: 767px) {
+  .row {
+    margin-right: 0;
+    margin-left: 0;
   }
-  
-  .maps1 {
-    flex: 1;
-    padding: 10px;
+  .infoheader {
+    margin-bottom: 15px;
   }
-  
-  .maps1 iframe {
-    width: 100%;
-    border: 5px solid #fff; 
-    border-radius: 10px; 
-  }
-  
-  .form {
-    flex: 1;
-    padding: 10px;
-  }
-  
-  .form form {
-    background-color: #171C7E;
-    padding: 20px;
-    border-radius: 10px; 
-  }
-  
-  .stylee {
-    text-align: left;
-  }
-  
-  .stylee h3 {
-    margin-top: 10px;
-    font-weight: bold;
-  }
-  
-  .stylee input,
-  .stylee textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .stylee button {
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  .stylee button:hover {
-    background-color: #1E6EDD;
-  }
+}
+/* Footer */
+#footer {
+  background-color: #171c7e;
+  color: #fff;
+  padding: 20px 0;
+}
 
-  #info {
-    background-color: #D1D2E5;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px 50px;
-    height: 200px;
-  }
-  
-  #CapybaraFixer1 {
-    list-style: none;
-    padding: 0;
-    display: flex;
+.footer-brand {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer-brand:hover {
+  text-decoration: underline;
+}
+
+.footer-collapse {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-collapse a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.footer-collapse a:hover {
+  text-decoration: underline;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .footer-collapse {
     flex-direction: column;
+    align-items: flex-end;
   }
-  
-  #CapybaraFixer1 li {
+
+  .footer-collapse a {
+    margin-right: 0px;
     margin-bottom: 10px;
-    display: flex;
-    align-items: center;
   }
-  
-  #CapybaraFixer1 li img {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-  }
-  
-  #CapybaraFixer1 a {
-    text-decoration: none;
-  }
-  
-  #info a {
-    text-decoration: none;
-    color: #1A1761;
-    font-weight: lighter;
-    font-size: 16px; 
-  }
-  
-  #info h1 {
-    color: #1A1761;
-    font-weight: bold;
-    font-size: 24px; 
-    line-height: 1.5; 
-  }
-  
-  #info h2 {
-    font-weight: bold;
-    font-size: 32px; 
-  }
-  
-  .infoheader p {
-    max-width: 300px; 
-    color: #243CBB;
-    line-height: 1.3; 
-  }
-
-
-  .infoheader li a {
-    line-height: 1.5;
-  }
-  
-  #CapybaraFixer {
-    margin-top: 10px; 
-  }
-  
-  #CapybaraFixer1 {
-    margin-top:10px;
-  }
-  
-  #footer {
-    background-color: #1A1761; 
-    color: white; 
-    padding: 20px 0; 
-    text-align: flex;
-  }
-  
-  #footer p {
-    margin: 0; 
-    font-size: 14px; 
-  }
-  
-  #footer1 {
-    display: flex; 
-    justify-content: flex-end; 
-    list-style: none; 
-    padding: 0; 
-    margin: 10px 0; 
-  }
-  
-  #footer1 > div {
-    margin: 0 10px; 
-  }
-  
-  #footer a {
-    text-decoration: none; 
-    color: white; 
-    font-size: 14px; 
-  }
+}
