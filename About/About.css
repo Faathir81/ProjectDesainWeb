@@ -1,0 +1,124 @@
+body 
+{
+  font-family: "Poppins", sans-serif;
+  background-color: #171c7e;
+}
+
+.navbar,
+.offcanvas-body,
+.offcanvas-header 
+{
+  background-color: #171c7e;
+}
+
+.navbar,
+.offcanvas-title 
+{
+  color: white;
+}
+.hero
+{
+  margin-top: 110px;
+  background-color: #5A5B92;
+}
+.kenali
+{
+  margin-top: -15px;
+}
+
+@media (min-width: 100px) 
+{
+  .hero
+  {
+    height: 240px;
+  }
+  .profile
+  {
+    font-size: 20px;
+  }
+  .kenali
+  {
+    font-size: 5.5px;
+    margin-top: -10px;
+  }
+  .gambar
+  {
+    width: 200px;
+  }
+}
+
+@media (min-width: 576px) 
+{
+  .hero
+  {
+    height: 300px;
+  }
+  .profile
+  {
+    font-size: 30px;
+  }
+  .kenali
+  {
+    font-size: 8px;
+  }
+  .gambar
+  {
+    width: 260px;
+  }
+}
+
+@media (min-width: 768px) 
+{  
+  .hero
+  {
+    height: 380px;
+  }
+  .profile
+  {
+    font-size: 40px;
+  }
+  .kenali
+  {
+    font-size: 11px;
+  }
+  .gambar
+  {
+    width: 350px;
+  }
+}
+
+@media (min-width: 992px) 
+{ 
+  .hero
+  {
+    height: 460px;
+  }
+  .profile
+  {
+    font-size: 62px;
+  }
+  .kenali
+  {
+    font-size: 15px;
+  }
+  .gambar
+  {
+    width: 420px;
+  }
+}
+
+@media (min-width: 1200px) 
+{
+  .hero
+  {
+    height: 500px;
+  }
+  .profile
+  {
+    font-size: 80px;
+  }
+  .kenali
+  {
+    font-size: 20px;
+  } 
+}
