@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #171c7e;
+}
+
+.navbar,
+.offcanvas-body,
+.offcanvas-header {
+  background-color: #171c7e;
+}
+
+.navbar,
+.offcanvas-title {
+  color: white;
+}
+
+.hero4 {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#layanan-section {
+  background-color: #1a1761;
+}
+
+#text-layanan {
+  color: #35dbe6;
+}
+
+#text-span {
+  color: black;
+}
+
+.text-span {
+  color: #243cbb;
+}
+
+footer {
+  background-color: #1b134e;
+}
+
+#card-layanan {
+  height: 100%;
+}
