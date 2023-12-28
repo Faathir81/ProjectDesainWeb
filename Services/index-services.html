@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style/services-style.css" />
   </head>
   <body>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top py-3">
@@ -23,7 +23,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
-            <div class="navbar-nav ms-auto">
+            <div class="navbar-nav ms-auto nav-underline">
               <a class="nav-link" aria-current="page" href="#">Home</a>
               <a class="nav-link" href="#">About</a>
               <a class="nav-link active" href="#">Services</a>
@@ -38,12 +38,16 @@
     <section class="hero p-5 text-light text-center text-sm-start">
       <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between">
-          <div>
-            <h4 class="fw-bold">Bantu berkembang dengan</h4>
-            <h1 class="fw-bold">Konsultasi Digital</h1>
-            <p>Menyelesaikan tiap tantangan digital dengan kompetensi & solusi yang paling tepat.</p>
+          <div class="col-sm-6">
+            <div>
+              <h4 class="fw-bold">Bantu berkembang dengan</h4>
+              <h1 class="fw-bold">Konsultasi Digital</h1>
+              <p>Menyelesaikan tiap tantangan digital dengan kompetensi & solusi yang paling tepat.</p>
+            </div>
           </div>
-          <img class="img-fluid w-lg-50" src="img/Searching for files in digital folder.png" alt="ilustrasi" />
+          <div class="col-sm-3">
+            <img class="img-fluid w-100" src="img/Searching for files in digital folder.png" alt="ilustrasi" />
+          </div>
         </div>
       </div>
     </section>
@@ -56,7 +60,7 @@
           <div class="col-sm">
             <div class="bg-transparent">
               <div class="card-body p-5">
-                <img src="img/profile picture of person in glasses and orange shirt.png" alt="" />
+                <img class="w-50" src="img/profile picture of person in glasses and orange shirt.png" alt="" />
                 <p class="card-text">Membantu <span class="fw-bold">Business Owner</span> membangun strategi yang paling tepat untuk bisnisnya.</p>
               </div>
             </div>
@@ -64,7 +68,7 @@
           <div class="col-sm">
             <div class="bg-transparent">
               <div class="card-body p-5">
-                <img src="img/profile picture of person in glasses and orange shirt.png" alt="" />
+                <img class="w-50" src="img/profile picture of person in glasses and orange shirt.png" alt="" />
                 <p class="card-text">Mendampingi <span class="fw-bold">Tim & Manajer Marketing</span> mengevaluasi serta mengoptimasi strategi digital marketing.</p>
               </div>
             </div>
@@ -72,7 +76,7 @@
           <div class="col-sm">
             <div class="bg-transparent">
               <div class="card-body p-5">
-                <img src="img/profile picture of person in glasses and orange shirt.png" alt="" />
+                <img class="w-50" src="img/profile picture of person in glasses and orange shirt.png" alt="" />
                 <p class="card-text">Membimbing <span class="fw-bold">Tim Digital</span> menjalankan strategi dengan tips & trik yang dijamin terbukti.</p>
               </div>
             </div>
@@ -126,36 +130,47 @@
             <button type="button" class="btn btn-primary">Dapatkan Brosur</button>
           </div>
           <div class="col">
-            <button type="button" class="btn btn-outline-light">Diskusi Bersama</button>
+            <a href="index-form.html"><button type="button" class="btn btn-outline-light" src="index-form.html">Diskusi Bersama</button></a>
           </div>
         </div>
       </div>
     </section>
     <section class="hero4">
-      <br /><br /><br />
       <div class="container">
-        <div class="row text-center text-sm-start">
-          <h3><span class="fw-bold">IT Consult</span></h3>
-          <div class="col-md-3 col-sm-12">
-            <h5>Universitas Pancasila</h5>
-            <address>
-              Jl. Lenteng Agung Raya No.56, RT.1/<br />
-              RW.3, Srengseng Sawah, Kec. <br />
-              Jagakarsa, Kota Jakarta Selatan, <br />
-              Daerah Khusus Ibukota Jakarta 12630.
-            </address>
+        <div class="row">
+          <div class="col mt-5 text-center text-md-start">
+            <h1 class="judul fw-bold text-light">IT Consult.</h1>
           </div>
-          <div class="col-md-2 col-sm-12 text-sm-right">
-            <h5>Profil Kami</h5>
+        </div>
+        <div class="row text-center text-md-start justify-content-center">
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-9 col-9 mb-4">
+            <h5 class="fw-bold text-primary-emphasis">Universitas Pancasila</h5>
+            <address>Jl. Lenteng Agung Raya No.56, RT.1/ RW.3, Srengseng Sawah, Kec.Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12630.</address>
+            <ul class="text-start list-unstyled">
+              <li>
+                <img src="img/Envelope.png" class="gambar9 d-block position-absolute" alt="email" />
+                <p>contoh@univpancasila.ac.id</p>
+              </li>
+              <li>
+                <img src="img/Phone.png" class="gambar10 position-absolute" alt="phone" />
+                <p>08xx-xxxx-xxxx</p>
+              </li>
+              <li>
+                <img src="img/WhatsApp.png" class="gambar11 position-absolute" alt="whatsapp" />
+                <p>08xx-xxxx-xxxx</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4 text-primary-emphasis">
+            <h5 class="fw-bold">Profil Kami</h5>
             <ul class="list-unstyled">
               <li>Tentang</li>
               <li>Karir</li>
               <li>Kontak</li>
             </ul>
           </div>
-
-          <div class="col-md-3 col-sm-12 text-sm-right">
-            <h5>Layanan Kami</h5>
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-5 col-5 text-primary-emphasis mb-4">
+            <h5 class="fw-bold">Layanan Kami</h5>
             <ul class="list-unstyled">
               <li>Digital Marketing</li>
               <li>Digital Operations</li>
@@ -163,9 +178,8 @@
               <li>Digital Learning</li>
             </ul>
           </div>
-
-          <div class="col-md-2 col-sm-12 text-sm-right">
-            <h5>Insight</h5>
+          <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 text-primary-emphasis mb-4">
+            <h5 class="fw-bold">Insight</h5>
             <ul class="list-unstyled">
               <li>Blog</li>
               <li>E-Books</li>
@@ -173,26 +187,31 @@
               <li>Portofolio</li>
             </ul>
           </div>
-
-          <div class="col-md-2 col-sm-12 text-sm-right">
-            <h5>Ikuti Kami</h5>
-            <div>
-              <img src="img/Instagram.png" alt="instagram" />
-              <img src="img/Facebook.png" alt="Facebook" />
-              <img src="img/YouTube.png" alt="youtube" />
-            </div>
-          </div>
-          <div class="col-md-2 col-sm-12 text-sm-right">
-            <ul class="list-unstyled">
-              <li><img src="img/Envelope.png" alt="email" /> @univpancasila.ac.id</li>
-              <li><img src="img/Phone.png" alt="" /> 08xxxxxxxxxxx</li>
-              <li><img src="img/WhatsApp.png" alt="" /> 08xxxxxxxx</li>
-            </ul>
+          <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 text-primary-emphasis">
+            <h5 class="fw-bold">Ikuti Kami</h5>
+            <img src="img/instagram.png" class="gambar12" alt="instagram" />
+            <img src="img/facebook.png" class="gambar13" alt="Facebook" />
+            <img src="img/youtube.png" class="gambar14" alt="youtube" />
           </div>
         </div>
       </div>
-      <br /><br /><br />
     </section>
+    <!--Footer-->
+    <footer class="text-light">
+      <div class="container align-items-center pt-3">
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2023 Universitas Pancasila</p>
+          </div>
+          <div class="col-md-3 text-end d-none d-xl-block text-xl-end">
+            <a href="#syarat-ketentuan" class="text-light md-2">Syarat & Ketentuan Layanan</a>
+          </div>
+          <div class="col-md-3 text-end d-none d-xl-block text-xl-end">
+            <a href="#kebijakan-privasi" class="text-light">Kebijakan Privasi</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>
