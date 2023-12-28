@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact IT Consult</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!--MY CSS-->
+    <link rel="stylesheet" href="/Contact/style.css" />
+  </head>
+  <body class="body">
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" style="background-color: #171c7e">
+      <div class="container mt-4 mb-3">
+        <a class="navbar-brand" href="/Home/HOME.html">IT Consult.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">IT Consult.</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto nav-underline">
+              <a class="nav-link" aria-current="page" href="/Home/HOME.html">Home</a>
+              <a class="nav-link" href="/About/About.html">About</a>
+              <a class="nav-link" href="/Services/index-services.html">Services</a>
+              <a class="nav-link" href="/Insight/blog.html">Insight</a>
+              <a class="nav-link active" href="/Contact/contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Header -->
+    <section class="jumbotron text-left mt-5" style="background-color: #d1d2e5; margin-bottom: 0">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1 class="display-1 fw-bold text-start" style="color: black">Hubungi Kami</h1>
+            <p class="lead text-start" style="color: black">
+              Jangan ragu untuk menghubungi kami kapanpun.<br />
+              Kami akan tetap terhubung bersama anda.
+            </p>
+          </div>
+          <div class="col-md-6 text-center">
+            <div class="Banner1">
+              <br />
+              <img src="/Contact/img/logo.1.png" alt="" class="img-fluid" width="450" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Header -->
+
+    <!-- Card -->
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/Contact/img/logo.2.png" class="card-img-top" alt="Card Image 1" />
+            <div class="card-body">
+              <p class="card-text">Alamat Email</p>
+              <p class="card-text">Contoh@univpancasila.ac.id</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/Contact/img/logo.3.png" class="card-img-top" alt="Card Image 2" />
+            <div class="card-body">
+              <p class="card-text">No Telepon</p>
+              <p class="card-text">(+62) xxx xxxx xxxx</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/Contact/img/logo.4.png" class="card-img-top" alt="Card Image 3" />
+            <div class="card-body">
+              <p class="card-text">WhatsApp</p>
+              <p class="card-text">(+62) xxx xxxx xxxx</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Card -->
+
+    <!-- Maps and Form -->
+    <div class="container">
+      <div class="row">
+        <!-- Maps -->
+        <div class="col-md-6">
+          <div class="maps1">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.4183246662865!2d106.83067677408023!3d-6.339828693649898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec332d15aa03%3A0x2c7b90ada04a1b0a!2sUniversitas%20Pancasila!5e0!3m2!1sid!2sid!4v1697953046122!5m2!1sid!2sid"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <!-- Form -->
+        <div class="col-md-6">
+          <div class="cardbody">
+            <div class="card-body">
+              <form id="contactForm" style="text-align: left">
+                <div class="mb-3">
+                  <label for="namaLengkap" class="form-label">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="namaLengkap" placeholder="Nama Lengkap" required />
+                </div>
+                <div class="mb-3">
+                  <label for="telepon" class="form-label">Telepon</label>
+                  <input type="text" class="form-control" id="telepon" placeholder="Telepon" required />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="text" class="form-control" id="email" placeholder="Email" required />
+                </div>
+                <div class="mb-3">
+                  <label for="namaPerusahaan" class="form-label">Nama Perusahaan</label>
+                  <input type="text" class="form-control" id="namaPerusahaan" placeholder="Nama Perusahaan" required />
+                </div>
+                <div class="mb-3">
+                  <label for="pesan" class="form-label">Pesan</label>
+                  <textarea class="form-control" id="pesan" rows="4" placeholder="Pesan" required></textarea>
+                </div>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Kirim</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog text-dark text-center">
+                    <div class="modal-content">
+                      <div class="modal-header text-center">
+                        <h5>Contact</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Jawaban Anda Telah Terkirim !!!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- Notification -->
+            <div class="alert alert-success" role="alert" id="notification">Pengisian sukses! Terima kasih atas pesan Anda.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Form -->
+
+    <!-- Info -->
+    <section class="hero4" style="background-color: #d1d2e5">
+      <div class="container">
+        <div class="row">
+          <div class="col mt-5 text-center text-md-start">
+            <h1 class="judul fw-bold text-light">IT Consult.</h1>
+          </div>
+        </div>
+        <div class="row text-center text-md-start justify-content-center">
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-9 col-9 mb-4">
+            <h5 class="fw-bold text-primary-emphasis">Universitas Pancasila</h5>
+            <address>Jl. Lenteng Agung Raya No.56, RT.1/ RW.3, Srengseng Sawah, Kec.Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12630.</address>
+            <ul class="text-start list-unstyled">
+              <li>
+                <img src="/Contact/img/email-logo.png" class="gambar9 d-block position-absolute" alt="email" />
+                <p>contoh@univpancasila.ac.id</p>
+              </li>
+              <li>
+                <img src="/Contact/img/no-telp.png" class="gambar10 position-absolute" alt="phone" />
+                <p>08xx-xxxx-xxxx</p>
+              </li>
+              <li>
+                <img src="/Contact/img/no-whatsapp.png" class="gambar11 position-absolute" alt="whatsapp" />
+                <p>08xx-xxxx-xxxx</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4 text-primary-emphasis">
+            <h5 class="fw-bold">Profil Kami</h5>
+            <ul class="list-unstyled">
+              <li>Tentang</li>
+              <li>Karir</li>
+              <li>Kontak</li>
+            </ul>
+          </div>
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-5 col-5 text-primary-emphasis mb-4">
+            <h5 class="fw-bold">Layanan Kami</h5>
+            <ul class="list-unstyled">
+              <li>Digital Marketing</li>
+              <li>Digital Operations</li>
+              <li>Digital Media Tools</li>
+              <li>Digital Learning</li>
+            </ul>
+          </div>
+          <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 text-primary-emphasis mb-4">
+            <h5 class="fw-bold">Insight</h5>
+            <ul class="list-unstyled">
+              <li>Blog</li>
+              <li>E-Books</li>
+              <li>Testimoni</li>
+              <li>Portofolio</li>
+            </ul>
+          </div>
+          <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 text-primary-emphasis">
+            <h5 class="fw-bold">Ikuti Kami</h5>
+            <img src="/Contact/img/instagram.png" class="gambar12" alt="instagram" />
+            <img src="/Contact/img/facebook.png" class="gambar13" alt="Facebook" />
+            <img src="/Contact/img/youtube.png" class="gambar14" alt="youtube" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="hero5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-5 col-sm-5 col-5 mb-3">
+            <h6 class="fw-bold text-light">&copy; 2023 Universitas Pancasila</h6>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-4 col-4 text-end mt-2 mt-md-3 mb-3">
+            <a href="#syarat-ketentuan" class="link-underline link-underline-opacity-0 text-light">Syarat & Ketentuan Layanan</a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-3 col-3 text-end mt-2 mt-md-3 mb-3">
+            <a href="#kebijakan-privasi" class="link-underline link-underline-opacity-0 text-light">Kebijakan Privasi</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--AKHIR FOOTER-->
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/Contact/script.js"></script>
+  </body>
+</html>

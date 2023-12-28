@@ -1,0 +1,445 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #171c7e;
+  color: #ffff;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+/* Navbar */
+.navbar,
+.offcanvas-body,
+.offcanvas-header {
+  background-color: #171c7e;
+}
+
+.navbar,
+.offcanvas-title {
+  color: white;
+}
+/* Jumbotron */
+.jumbotron {
+  padding: 67px 0;
+  background-color: #d1d2e5;
+  margin-bottom: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron h1 {
+  color: black;
+  text-align: left;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.jumbotron p {
+  color: black;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+/* Card */
+.card {
+  background-color: #243cbb;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-text {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+/* Maps & Form */
+.maps1,
+.cardbody {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.form-control,
+.btn-primary {
+  border-radius: 10px;
+}
+
+.alert {
+  margin-bottom: 50px;
+  display: none;
+}
+.hero5
+{
+  margin-top: -20px;
+  background-color: #1B134E;
+}
+
+/* Info Section */
+#info {
+  background-color: #d1d2e5;
+  color: #171c7e;
+}
+
+.container2 {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.infoheader {
+  padding: 15px;
+}
+
+h1,
+h2 {
+  margin-bottom: 15px;
+}
+
+.small {
+  font-size: 14px;
+}
+
+.iconlogo1 {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+ul li a {
+  color: #171c7e;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.iconlogo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+/* Responsif: Atur margin pada kolom agar tidak bersisian di perangkat kecil */
+@media (max-width: 767px) {
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .infoheader {
+    margin-bottom: 15px;
+  }
+}
+/* Footer */
+@media (min-width: 100px) {
+  .hero4 {
+    height: 670px;
+  }
+  .hero4 address {
+    font-size: 10px;
+    color: #243cbb;
+  }
+  .hero4 h1 {
+    font-size: 20px;
+  }
+  .hero4 h5 {
+    font-size: 13px;
+  }
+  .hero4 ul {
+    font-size: 10px;
+  }
+  ul.text-start.list-unstyled li p {
+    color: black;
+  }
+  .gambar9 {
+    margin-left: 50px;
+    width: 18px;
+  }
+  .gambar10 {
+    margin-left: 50px;
+    width: 14px;
+  }
+  .gambar11 {
+    margin-left: 50px;
+    width: 15px;
+  }
+  .hero4 p {
+    font-size: 10px;
+    margin-left: 73px;
+  }
+  .gambar12 {
+    width: 20px;
+  }
+  .gambar13 {
+    width: 20px;
+  }
+  .gambar14 {
+    width: 22px;
+  }
+}
+
+@media (min-width: 576px) {
+  .hero4 {
+    height: 800px;
+  }
+  .hero4 address {
+    font-size: 14px;
+    color: #243cbb;
+  }
+  .hero4 h1 {
+    font-size: 25px;
+  }
+  .hero4 h5 {
+    font-size: 17px;
+  }
+  .hero4 ul {
+    font-size: 14px;
+  }
+  .gambar9 {
+    margin-left: 85px;
+    width: 23px;
+  }
+  .gambar10 {
+    margin-left: 85px;
+    width: 21px;
+  }
+  .gambar11 {
+    margin-left: 85px;
+    width: 22px;
+  }
+  .hero4 p {
+    font-size: 17px;
+    margin-left: 113px;
+  }
+  .gambar12 {
+    width: 25px;
+  }
+  .gambar13 {
+    width: 24px;
+  }
+  .gambar14 {
+    width: 29px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero4 {
+    height: 430px;
+  }
+  .hero4 address {
+    font-size: 12px;
+    color: #243cbb;
+  }
+  .hero4 h5 {
+    font-size: 14px;
+  }
+  .hero4 ul {
+    font-size: 12px;
+  }
+  .gambar9 {
+    margin-left: 10px;
+    width: 20px;
+  }
+  .gambar10 {
+    margin-left: 10px;
+    width: 16px;
+  }
+  .gambar11 {
+    margin-left: 10px;
+    width: 17px;
+  }
+  .hero4 p {
+    font-size: 12px;
+    margin-left: 35px;
+  }
+  .gambar12 {
+    width: 20px;
+  }
+  .gambar13 {
+    width: 20px;
+  }
+  .gambar14 {
+    width: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero4 {
+    height: 460px;
+  }
+  .hero4 address {
+    font-size: 15px;
+    color: #243cbb;
+  }
+  .hero4 h5 {
+    font-size: 19px;
+  }
+  .hero4 ul {
+    font-size: 15px;
+  }
+  .gambar9 {
+    margin-left: 10px;
+    width: 25px;
+  }
+  .gambar10 {
+    margin-left: 10px;
+    width: 21px;
+  }
+  .gambar11 {
+    margin-left: 10px;
+    width: 22px;
+  }
+  .hero4 p {
+    font-size: 15px;
+    margin-left: 40px;
+  }
+  .gambar12 {
+    width: 28px;
+  }
+  .gambar13 {
+    width: 28px;
+  }
+  .gambar14 {
+    width: 35px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero4 {
+    height: 450px;
+  }
+  .hero4 address {
+    color: #243cbb;
+  }
+  .gambar9 {
+    margin-left: 10px;
+    width: 30px;
+  }
+  .gambar10 {
+    margin-left: 10px;
+    width: 26px;
+  }
+  .gambar11 {
+    margin-left: 10px;
+    width: 27px;
+  }
+  .hero4 p {
+    margin-left: 45px;
+  }
+  .gambar12 {
+    width: 30px;
+  }
+  .gambar13 {
+    width: 30px;
+  }
+  .gambar14 {
+    width: 37px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero4 {
+    height: 450px;
+  }
+  .hero4 address {
+    color: #243cbb;
+  }
+  .gambar9 {
+    margin-left: 10px;
+    width: 30px;
+  }
+  .gambar10 {
+    margin-left: 10px;
+    width: 26px;
+  }
+  .gambar11 {
+    margin-left: 10px;
+    width: 27px;
+  }
+  .hero4 p {
+    margin-left: 45px;
+  }
+  .gambar12 {
+    width: 30px;
+  }
+  .gambar13 {
+    width: 30px;
+  }
+  .gambar14 {
+    width: 37px;
+  }
+}
+
+/* Responsive styles */
+@media (min-width: 100px) {
+  .hero5 h6 {
+    margin-top: 20px;
+    font-size: 8px;
+  }
+  .hero5 a {
+    font-size: 7px;
+  }
+}
+
+@media (min-width: 576px) {
+  .hero5 h6 {
+    margin-top: 17px;
+    font-size: 10px;
+  }
+  .hero5 a {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero5 h6 {
+    margin-top: 21px;
+    font-size: 13px;
+  }
+  .hero5 a {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero5 h6 {
+    margin-top: 22px;
+    font-size: 15px;
+  }
+  .hero5 a {
+    font-size: 15px;
+  }
+}

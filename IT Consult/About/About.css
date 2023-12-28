@@ -1,0 +1,1177 @@
+/* membuat agar body pada html memiliki background berwarna biru tua */
+body 
+{
+  font-family: "Poppins", sans-serif;
+  background-color: #171c7e;
+}
+
+/* membuat class navbar agar memiliki background berwarna biru tua */
+.navbar,
+.offcanvas-body,
+.offcanvas-header 
+{
+  background-color: #171c7e;
+}
+
+/* membuat huruf pada class navbar memiliki warna putih */
+.navbar,
+.offcanvas-title 
+{
+  color: white;
+}
+
+/* membuat class hero memiliki background berwarna abu abu keunguan dan margin top 110px */
+.hero
+{
+  margin-top: 110px;
+  background-color: #5A5B92;
+}
+
+/* membuat class kenali memiliki margin top mines 15px */
+.kenali
+{
+  margin-top: -15px;
+}
+
+/* membuat class hero 1 memiliki background berwarna putih keabu-abuan */
+.hero1
+{
+  background-color:#D1D2E5;
+}
+
+/* membuat class card memiliki background berwarna putih keabu-abuan */
+.card
+{
+  background-color: #D1D2E5;
+}
+
+/* membuat class card pada class hero 2 memiliki background berwarna biru tua */
+.hero2 .card
+{
+  background-color: #171c7e;
+}
+
+/* membuat class hero 3 memiliki background berwarna biru tua */
+.hero3
+{
+  background-color: #1B134E;
+}
+
+/* membuat class card pada class hero 3 memiliki background berwarna biru tua */
+.hero3 .card
+{
+  background-color: #1B134E;
+}
+
+/* membuat class hero 4 memiliki background berwarna putih keabu-abuan */
+.hero4 
+{
+  background-color: #d1d2e5;
+}
+
+/* membuat kalimat yang ada di dalam address agar berwana biru muda */
+.hero4 address
+{
+  color: #243cbb;
+}
+
+/* membuat class hero 5 memiliki background berwarna biru tua */
+.hero5
+{
+  background-color: #1B134E;
+}
+
+/* membuat responsif dari 100px sampai 576px */
+@media (min-width: 100px) 
+{
+  .hero
+  {
+    height: 250px;
+  }
+  .profile
+  {
+    font-size: 20px;
+  }
+  .kenali
+  {
+    font-size: 5.5px;
+    margin-top: -10px;
+  }
+  .gambar
+  {
+    width: 200px;
+  }
+  .hero1
+  {
+    height: 750px;
+  }
+  .card
+  {
+    height: 240px;
+  }
+  .gambar2
+  {
+    width: 18px;
+  }
+  .gambar3
+  {
+    width: 18px;
+  }
+  .judul
+  {
+    font-size: 15px;
+  }
+  .card p
+  {
+    font-size: 10px;
+  }
+  .card h3
+  {
+    font-size: 12px;
+  }
+  .hero2
+  {
+    height: 1630px;
+  }
+  .hero2 .card
+  {
+    height: 180px;
+  }
+  .gambar4
+  {
+    margin-top: 2px;
+    margin-left: 78px;
+    width: 40px;
+  }
+  .gambar5
+  {
+    margin-top: 6px;
+    margin-left: 88px;
+    width: 40px;
+  }
+  .gambar6
+  {
+    margin-top: 5px;
+    margin-left: 83px ;
+    width: 40px;
+  }
+  .gambar7
+  {
+    margin-top: 5px;
+    margin-left: 80px;
+    width: 40px;
+  }
+  .gambar8
+  {
+    margin-left: 13px;
+    margin-top: 2px;
+    width: 40px;
+  }
+  .hero2 h3
+  {
+    font-size: 12px;
+  }
+  .hero3
+  {
+    height: 460px;
+  }
+  .hero3 .card
+  {
+    height: 300px;
+  }
+  .hero3 .card p
+  {
+    font-size: 8px;
+  }
+  .hero3 .card h3
+  {
+    font-size: 12px;
+  }
+  .foto1
+  {
+    margin-top: -18px;
+    margin-bottom: 50px;
+    width: 200px;
+  }
+  .foto2
+  {
+    margin-top: -10px;
+    margin-bottom: 50px;
+    width: 128px;
+  }
+  .foto3
+  {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 135px;
+  }
+  .foto4
+  {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    width: 133px;
+  }
+  .foto5
+  {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 145px;
+  }
+  .hero4
+  {
+    height: 670px;
+  }
+  .hero4 address
+  {
+    font-size: 10px;
+  }
+  .hero4 h1
+  {
+    font-size: 20px;
+  }
+  .hero4 h5
+  {
+    font-size: 13px;
+  }
+  .hero4 ul
+  {
+    font-size: 10px;
+  }
+  .gambar9
+  {
+    margin-left: 50px;
+    width: 18px;
+  }
+  .gambar10
+  {
+    margin-left: 50px;
+    width: 14px;
+  }
+  .gambar11
+  {
+    margin-left: 50px;
+    width: 15px;
+  }
+  .hero4 p
+  {
+    font-size: 10px;
+    margin-left: 73px;
+  }
+  .gambar12
+  {
+    width: 20px;
+  }
+  .gambar13
+  {
+    width: 20px;
+  }
+  .gambar14
+  {
+    width: 22px;
+  }
+  .hero5 h6
+  {
+    margin-top: 20px;
+    font-size: 8px;
+  }
+  .hero5 a
+  {
+    font-size: 7px;
+  } 
+}
+
+/* membuat responsif dari 576px sampai 768px */
+@media (min-width: 576px) 
+{
+  .hero
+  {
+    height: 310px;
+  }
+  .profile
+  {
+    font-size: 30px;
+  }
+  .kenali
+  {
+    font-size: 8px;
+  }
+  .gambar
+  {
+    width: 260px;
+  }
+  .hero1
+  {
+    height: 770px;
+  }
+  .card
+  {
+    height: 250px;
+  }
+  .gambar2
+  {
+    width: 20px;
+  }
+  .gambar3
+  {
+    width: 20px;
+  }
+  .judul
+  {
+    font-size: 23px;
+  }
+  .card p
+  {
+    font-size: 12px;
+  }
+  .card h3
+  {
+    font-size: 15px;
+  }  
+  .hero2
+  {
+    height: 1750px;
+  }
+  .hero2 .card
+  {
+    height: 200px;
+  }
+  .gambar4
+  {
+    margin-left: 80px;
+    width: 50px;
+  }
+  .gambar5
+  {
+    margin-left: 91px;
+    width: 50px;
+  }
+  .gambar6
+  {
+    margin-left: 85px ;
+    width: 50px;
+  }
+  .gambar7
+  {
+    margin-left: 83px;
+    width: 50px;
+  }
+  .gambar8
+  {
+    margin-left: 1px;
+    width: 50px;
+  }
+  .hero2 h3
+  {
+    font-size: 15px;
+  }
+  .hero3
+  {
+    height: 600px;
+  }
+  .hero3 .card
+  {
+    height: 390px;
+  }
+  .hero3 .card p
+  {
+    font-size: 12px;
+  }
+  .hero3 .card h3
+  {
+    font-size: 16px;
+  }
+  .foto1
+  {
+    margin-top: -18px;
+    margin-bottom: 60px;
+    width: 280px;
+  }
+  .foto2
+  {
+    margin-bottom: 60px;
+    width: 175px;
+  }
+  .foto3
+  {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    width: 190px;
+  }
+  .foto4
+  {
+    margin-top: 28px;
+    margin-bottom: 60px;
+    width: 185px;
+  }
+  .foto5
+  {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    width: 200px;
+  }
+  .hero4
+  {
+    height: 800px;
+  }
+  .hero4 address
+  {
+    font-size: 14px;
+  }
+  .hero4 h1
+  {
+    font-size: 25px;
+  }
+  .hero4 h5
+  {
+    font-size: 17px;
+  }
+  .hero4 ul
+  {
+    font-size: 14px;
+  }
+  .gambar9
+  {
+    margin-left: 85px;
+    width: 23px;
+  }
+  .gambar10
+  {
+    margin-left: 85px;
+    width: 21px;
+  }
+  .gambar11
+  {
+    margin-left: 85px;
+    width: 22px;
+  }
+  .hero4 p
+  {
+    font-size: 17px;
+    margin-left: 113px;
+  }
+  .gambar12
+  {
+    width: 25px;
+  }
+  .gambar13
+  {
+    width: 24px;
+  }
+  .gambar14
+  {
+    width: 29px;
+  }
+  .hero5 h6
+  {
+    margin-top: 17px;
+    font-size: 10px;
+  }
+  .hero5 a
+  {
+    font-size: 10px;
+  }   
+}
+
+/* membuat responsif dari 768px sampai 992px */
+@media (min-width: 768px) 
+{  
+  .hero
+  {
+    height: 400px;
+  }
+  .profile
+  {
+    font-size: 40px;
+  }
+  .kenali
+  {
+    font-size: 11px;
+  }
+  .gambar
+  {
+    width: 350px;
+  }
+  .hero1
+  {
+    height: 480px;
+  }
+  .card
+  {
+    height: 255px;
+  }
+  .gambar2
+  {
+    width: 27px;
+  }
+  .gambar3
+  {
+    width: 27px;
+  }
+  .judul
+  {
+    font-size: 30px;
+  }
+  .card p
+  {
+    font-size: 11px;
+  }
+  .card h3
+  {
+    font-size: 15px;
+  }
+  .hero2
+  {
+    height: 850px;
+  }
+  .hero2 .card
+  {
+    height: 200px;
+  }
+  .gambar4
+  {
+    margin-left: 22px;
+    width: 50px;
+  }
+  .gambar5
+  {
+    margin-left: 34px;
+    width: 50px;
+  }
+  .gambar6
+  {
+    margin-left: 27px ;
+    width: 50px;
+  }
+  .gambar7
+  {
+    margin-left: 83px;
+    width: 50px;
+  }
+  .gambar8
+  {
+    margin-left: 1px;
+    width: 50px;
+  }
+  .hero2 h3
+  {
+    font-size: 15px;
+  }
+  .hero3
+  {
+    height: 650px;
+  }
+  .hero3 .card
+  {
+    height: 430px;
+  }
+  .hero3 .card p
+  {
+    font-size: 13px;
+  }
+  .hero3 .card h3
+  {
+    font-size: 17px;
+  }
+  .foto1
+  {
+    margin-top: -18px;
+    margin-bottom: 60px;
+    width: 310px;
+  }
+  .foto2
+  {
+    margin-top: -13px;
+    margin-bottom: 60px;
+    width: 200px;
+  }
+  .foto3
+  {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    width: 210px;
+  }
+  .foto4
+  {
+    margin-top: 25px;
+    margin-bottom: 60px;
+    width: 207px;
+  }
+  .foto5
+  {
+    margin-top: 55px;
+    margin-bottom: 60px;
+    width: 215px;
+  }
+  .hero4
+  {
+    height: 430px;
+  }
+  .hero4 address
+  {
+    font-size: 12px;
+  }
+  .hero4 h5
+  {
+    font-size: 14px;
+  }
+  .hero4 ul
+  {
+    font-size: 12px;
+  }
+  .gambar9
+  {
+    margin-left: 10px;
+    width: 20px;
+  }
+  .gambar10
+  {
+    margin-left: 10px;
+    width: 16px;
+  }
+  .gambar11
+  {
+    margin-left: 10px;
+    width: 17px;
+  }
+  .hero4 p
+  {
+    font-size: 12px;
+    margin-left: 35px;
+  }
+  .gambar12
+  {
+    width: 20px;
+  }
+  .gambar13
+  {
+    width: 20px;
+  }
+  .gambar14
+  {
+    width: 25px;
+  }
+  .hero5 h6
+  {
+    margin-top: 21px;
+    font-size: 13px;
+  }
+  .hero5 a
+  {
+    font-size: 13px;
+  }  
+}
+
+/* membuat responsif dari 992px sampai 1200px */
+@media (min-width: 992px) 
+{ 
+  .hero
+  {
+    height: 470px;
+  }
+  .profile
+  {
+    font-size: 62px;
+  }
+  .kenali
+  {
+    font-size: 15px;
+  }
+  .gambar
+  {
+    width: 420px;
+  }
+  .hero1
+  {
+    height: 550px;
+  }
+  .card
+  {
+    height: 320px;
+  }
+  .gambar2
+  {
+    width: 33px;
+  }
+  .gambar3
+  {
+    width: 33px;
+  }
+  .judul
+  {
+    font-size: 35px;
+  }
+  .card p
+  {
+    font-size: 15px;
+  }
+  .card h3
+  {
+    font-size: 20px;
+  }
+  .hero2
+  {
+    height: 990px;
+  }
+  .hero2 .card
+  {
+    height: 250px;
+  }
+  .gambar4
+  {
+    margin-left: 37px;
+    width: 60px;
+  }
+  .gambar5
+  {
+    margin-left: 54px;
+    width: 60px;
+  }
+  .gambar6
+  {
+    margin-left: 45px ;
+    width: 60px;
+  }
+  .gambar7
+  {
+    margin-left: 120px;
+    width: 60px;
+  }
+  .gambar8
+  {
+    margin-left: 10px;
+    width: 60px;
+  }
+  .hero2 h3
+  {
+    font-size: 20px;
+  }
+  .hero3
+  {
+    height: 700px;
+  }
+  .hero3 .card
+  {
+    height: 480px;
+  }
+  .hero3 .card p
+  {
+    font-size: 14px;
+  }
+  .hero3 .card h3
+  {
+    font-size: 18px;
+  }
+  .foto1
+  {
+    margin-bottom: 70px;
+    width: 340px;
+  }
+  .foto2
+  {
+    margin-bottom: 70px;
+    width: 223px;
+  }
+  .foto3
+  {
+    margin-top: 18px;
+    margin-bottom: 70px;
+    width: 237px;
+  }
+  .foto4
+  {
+    margin-top: 26px;
+    margin-bottom: 70px;
+    width: 233px;
+  }
+  .foto5
+  {
+    margin-top: 63px;
+    margin-bottom: 70px;
+    width: 235px;
+  }
+  .hero4
+  {
+    height: 460px;
+  }
+  .hero4 address
+  {
+    font-size: 15px;
+  }
+  .hero4 h5
+  {
+    font-size: 19px;
+  }
+  .hero4 ul
+  {
+    font-size: 15px;
+  }
+  .gambar9
+  {
+    margin-left: 10px;
+    width: 25px;
+  }
+  .gambar10
+  {
+    margin-left: 10px;
+    width: 21px;
+  }
+  .gambar11
+  {
+    margin-left: 10px;
+    width: 22px;
+  }
+  .hero4 p
+  {
+    font-size: 15px;
+    margin-left: 40px;
+  }
+  .gambar12
+  {
+    width: 28px;
+  }
+  .gambar13
+  {
+    width: 28px;
+  }
+  .gambar14
+  {
+    width: 35px;
+  }
+  .hero5 h6
+  {
+    margin-top: 22px;
+    font-size: 15px;
+  }
+  .hero5 a
+  {
+    font-size: 15px;
+  } 
+}
+
+/* membuat responsif dari 1200px sampai 1400px */
+@media (min-width: 1200px) 
+{
+  .hero
+  {
+    height: 550px;
+  }
+  .profile
+  {
+    font-size: 70px;
+  }
+  .kenali
+  {
+    font-size: 17px;
+  }
+  .gambar
+  {
+    width: 500px;
+  }
+  .hero1
+  {
+    height: 590px;
+  }
+  .card
+  {
+    height: 330px;
+  }
+  .gambar2
+  {
+    width: 35px;
+  }
+  .gambar3
+  {
+    width: 35px;
+  }
+  .judul
+  {
+    font-size: 40px;
+  }
+  .card p
+  {
+    font-size: 17px;
+  }
+  .card h3
+  {
+    font-size: 23px;
+  }
+  .hero2
+  {
+    height: 1020px;
+  }
+  .hero2 .card
+  {
+    height: 250px;
+  }
+  .gambar4
+  {
+    margin-left: 44px;
+    width: 70px;
+  }
+  .gambar5
+  {
+    margin-left: 64px;
+    width: 70px;
+  }
+  .gambar6
+  {
+    margin-left: 52px ;
+    width: 70px;
+  }
+  .gambar7
+  {
+    margin-left: 143px;
+    width: 70px;
+  }
+  .gambar8
+  {
+    margin-left: 5px;
+    width: 70px;
+  }
+  .hero2 h3
+  {
+    font-size: 25px;
+  }
+  .hero3
+  {
+    height: 760px;
+  }
+  .hero3 .card
+  {
+    height: 500px;
+  }
+  .hero3 .card p
+  {
+    font-size: 15px;
+  }
+  .hero3 .card h3
+  {
+    font-size: 20px;
+  }
+  .foto1
+  {
+    margin-bottom: 80px;
+    width: 370px;
+  }
+  .foto2
+  {
+    margin-bottom: 80px;
+    width: 243px;
+  }
+  .foto3
+  {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    width: 258px;
+  }
+  .foto4
+  {
+    margin-top: 33px;
+    margin-bottom: 80px;
+    width: 248px;
+  }
+  .foto5
+  {
+    margin-top: 63px;
+    margin-bottom: 80px;
+    width: 259px;
+  }
+  .hero4
+  {
+    height: 450px;
+  }
+  .gambar9
+  {
+    margin-left: 10px;
+    width: 30px;
+  }
+  .gambar10
+  {
+    margin-left: 10px;
+    width: 26px;
+  }
+  .gambar11
+  {
+    margin-left: 10px;
+    width: 27px;
+  }
+  .hero4 p
+  {
+    margin-left: 45px;
+  }
+  .gambar12
+  {
+    width: 30px;
+  }
+  .gambar13
+  {
+    width: 30px;
+  }
+  .gambar14
+  {
+    width: 37px;
+  }
+}
+@media (min-width: 1400px) 
+{ 
+  .hero
+  {
+    height: 650px;
+  }
+  .profile
+  {
+    font-size: 80px;
+  }
+  .kenali
+  {
+    font-size: 20px;
+  }
+  .gambar
+  {
+    width: 600px;
+  }
+  .hero1
+  {
+    height: 650px;
+  }
+  .card
+  {
+    height: 370px;
+  }
+  .gambar2
+  {
+    width: 37px;
+  }
+  .gambar3
+  {
+    width: 37px;
+  }
+  .judul
+  {
+    font-size: 45px;
+  }
+  .card p
+  {
+    font-size: 20px;
+  }
+  .card h3
+  {
+    font-size: 27px;
+  }
+  .hero2
+  {
+    height: 1050px;
+  }
+  .hero2 .card
+  {
+    height: 250px;
+  }
+  .gambar4
+  {
+    margin-left: 50px;
+    width: 80px;
+  }
+  .gambar5
+  {
+    margin-left: 75px;
+    width: 80px;
+  }
+  .gambar6
+  {
+    margin-left: 60px ;
+    width: 80px;
+  }
+  .gambar7
+  {
+    margin-left: 167px;
+    width: 80px;
+  }
+  .gambar8
+  {
+    margin-left: 2px;
+    width: 80px;
+  }
+  .hero2 h3
+  {
+    font-size: 30px;
+  }
+  .hero3
+  {
+    height: 800px;
+  }
+  .hero3 .card
+  {
+    height: 530px;
+  }
+  .hero3 .card p
+  {
+    font-size: 16px;
+  }
+  .hero3 .card h3
+  {
+    font-size: 22px;
+  }
+  .foto1
+  {
+    margin-bottom: 80px;
+    width: 391px;
+  }
+  .foto2
+  {
+    margin-bottom: 80px;
+    width: 257px;
+  }
+  .foto3
+  {
+    margin-top: 23px;
+    margin-bottom: 80px;
+    width: 276px;
+  }
+  .foto4
+  {
+    margin-top: 35px;
+    margin-bottom: 80px;
+    width: 266px;
+  }
+  .foto5
+  {
+    margin-top: 70px;
+    margin-bottom: 80px;
+    width: 275px;
+  }
+  .hero4
+  {
+    height: 450px;
+  }
+  .gambar9
+  {
+    margin-left: 10px;
+    width: 30px;
+  }
+  .gambar10
+  {
+    margin-left: 10px;
+    width: 26px;
+  }
+  .gambar11
+  {
+    margin-left: 10px;
+    width: 27px;
+  }
+  .hero4 p
+  {
+    margin-left: 45px;
+  }
+  .gambar12
+  {
+    width: 30px;
+  }
+  .gambar13
+  {
+    width: 30px;
+  }
+  .gambar14
+  {
+    width: 35px;
+  }
+}
