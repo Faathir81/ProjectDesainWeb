@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Download Brosur</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/Brosur/brosur.css" />
+</head>
+<body>
+  <!-- Awal Navbar -->
+  <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+    <div class="container mt-4 mb-3">
+      <a class="navbar-brand" href="/Home/HOME.html">IT Consult.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">IT Consult.</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="navbar-nav ms-auto nav-underline">
+                <a class="nav-link" aria-current="page" href="/Home/HOME.html">Home</a>
+                <a class="nav-link" href="/About/About.html">About</a>
+                <a class="nav-link active" href="/Services/index-services.html">Services</a>
+                <a class="nav-link" href="/Insight/blog.html">Insight</a>
+                <a class="nav-link" href="/Contact/contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
+    </div>
+  </nav>
+  <!-- Akhir Navbar -->
+
+  <!-- Section 1 berisi form untuk mendownload brosur -->
+  <section class="hero rounded-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col mt-5 mb-4 mb-sm-5">
+          <h1 class="fw-bold">Form Download Brosur</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <form class="form">
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control mb-4 mb-sm-5" id="name" aria-describedby="name" placeholder="Contoh : John Doe">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control mb-4 mb-sm-5" id="email" aria-describedby="email" placeholder="Contoh : johndoe@gmail.com">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">No.Telepon</label>
+              <input type="email" class="form-control mb-4 mb-sm-5" id="email" aria-describedby="email" placeholder="Contoh : 081xxxxxxxxx">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Nama Perusahaan</label>
+              <input type="email" class="form-control mb-4 mb-sm-5" id="email" aria-describedby="email" placeholder="Contoh : PT.xxxxxxxxx">
+            </div>
+            <button type="button" class="btn text-light rounded-5 mt-3 mb-5" data-bs-toggle="modal" data-bs-target="#exampleModal">Kirim</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5>Form Download Brosur</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Formulir telah terkirim !!!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir section 1 -->
+
+  <!-- Section 2  berisi tentang alamat, profil, layanan dan medsos dari IT Consult. -->
+  <section class="hero1">
+    <div class="container">
+      <div class="row">
+        <div class="col mt-5 text-center text-md-start">
+          <h1 class="judul fw-bold text-light">IT Consult.</h1>
+        </div>
+      </div>
+      <div class="row text-center text-md-start justify-content-center">
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-9 col-9 mb-4">
+          <h5 class="fw-bold text-primary-emphasis">Universitas Pancasila</h5>
+          <address> Jl. Lenteng Agung Raya No.56, RT.1/ RW.3, Srengseng Sawah, Kec.Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12630. </address>
+          <ul class=" text-start list-unstyled">
+            <li>
+              <img src="/Brosur/img/email.png" class="gambar1 d-block position-absolute" alt="email"> 
+              <p>contoh@univpancasila.ac.id</p>
+            </li>
+            <li>
+              <img src="/Brosur/img/phone.png" class="gambar2  position-absolute" alt="phone"> 
+              <p>08xx-xxxx-xxxx</p>
+            </li>
+            <li>
+              <img src="/Brosur/img/whatsapp.png" class="gambar3 position-absolute" alt="whatsapp"> 
+              <p>08xx-xxxx-xxxx</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4 text-primary-emphasis">
+          <h5 class="fw-bold">Profil Kami</h5>
+          <ul class="list-unstyled">
+            <li>Tentang</li>
+            <li>Karir</li>
+            <li>Kontak</li>
+          </ul>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-5 col-5 text-primary-emphasis mb-4">
+          <h5 class="fw-bold">Layanan Kami</h5>
+          <ul class="list-unstyled">
+            <li>Digital Marketing</li>
+            <li>Digital Operations</li>
+            <li>Digital Media Tools</li>
+            <li>Digital Learning</li>
+          </ul>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 text-primary-emphasis mb-4">
+          <h5 class="fw-bold">Insight</h5>
+          <ul class="list-unstyled">
+            <li>Blog</li>
+            <li>E-Books</li>
+            <li>Testimoni</li>
+            <li>Portofolio</li>
+          </ul>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 text-primary-emphasis">
+          <h5 class="fw-bold">Ikuti Kami</h5>
+          <img src="/Brosur/img/instagram.png" class="gambar4" alt="instagram">
+          <img src="/Brosur/img/facebook.png" class="gambar5" alt="Facebook">
+          <img src="/Brosur/img/youtube.png" class="gambar6" alt="youtube">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir section 2 -->
+
+  <!-- Section 3 adalah footer yang berisi tentang copyright, syarat & ketentuan dan kebijakan privasi -->
+  <footer class="hero2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-5 col-sm-5 col-5 mb-3">
+          <h6 class="fw-bold text-light">&copy; 2023 Universitas Pancasila</h6>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-4 col-4 text-end mt-2 mt-md-3 mb-3">
+          <a href="#syarat-ketentuan" class="link-underline link-underline-opacity-0 text-light">Syarat & Ketentuan Layanan</a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-3 col-3 text-end mt-2 mt-md-3 mb-3">
+          <a href="#kebijakan-privasi" class="link-underline link-underline-opacity-0 text-light">Kebijakan Privasi</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Akhir section 3  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
