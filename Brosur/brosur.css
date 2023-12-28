@@ -1,0 +1,522 @@
+/* Membuat body html agar memiliki background biru tua dan menggunakan jenis font poppins */
+body 
+{
+  font-family: "Poppins", sans-serif;
+  background-color: #171c7e;
+}
+
+/* membuat navbar memiliki background berwarna biru tua */
+.navbar,
+.offcanvas-body,
+.offcanvas-header 
+{
+  background-color: #171c7e;
+}
+
+/* membuat font pada navbar agar berwarna putih  */
+.navbar,
+.offcanvas-title 
+{
+  color: white;
+}
+
+/* membuat class hero agar memiliki background putih, box shadow berwarna hitam dan margin yang di tentukan */
+.hero
+{
+  margin: 0 auto;
+  background-color: #fffffff9;
+  box-shadow: 10px 10px 30px black;
+  margin-top: 140px;
+  margin-bottom: 120px;
+}
+
+/* membuat class btn agar background nya berwarna biru tua */
+.btn
+{
+  background-color: #171c7e;
+}
+
+/* membuat class hero 1 agar background nya berwarna putih */
+.hero1
+{
+  background-color:#D1D2E5;
+}
+
+/* membuat kalimat yang ada di dalam address agar berwana biru muda */
+.hero1 address
+{
+  color: #243cbb;
+}
+
+/* membuat class hero 2 agar background nya berwarna biru tua */
+.hero2
+{
+  background-color: #1B134E;
+}
+
+/* membuat responsif dari 100px sampai 576px */
+@media (min-width: 100px) 
+{
+  .hero
+  {
+    width: 270px;
+  }
+  .hero h1
+  {
+    font-size: 15px;
+  }
+  .form
+  {
+    font-size: 11px;
+    width: 230px;
+    margin-left: 10px;
+  }
+  .btn
+  {
+    width: 230px;
+  }
+  .hero input
+  {
+    font-size: 10px;
+  }
+  .hero1
+  {
+    height: 670px;
+  }
+  .hero1 address
+  {
+    font-size: 10px;
+  }
+  .hero1 h1
+  {
+    font-size: 20px;
+  }
+  .hero1 h5
+  {
+    font-size: 13px;
+  }
+  .hero1 ul
+  {
+    font-size: 10px;
+  }
+  .gambar1
+  {
+    margin-left: 50px;
+    width: 18px;
+  }
+  .gambar2
+  {
+    margin-left: 50px;
+    width: 14px;
+  }
+  .gambar3
+  {
+    margin-left: 50px;
+    width: 15px;
+  }
+  .hero1 p
+  {
+    font-size: 10px;
+    margin-left: 73px;
+  }
+  .gambar4
+  {
+    width: 20px;
+  }
+  .gambar5
+  {
+    width: 20px;
+  }
+  .gambar6
+  {
+    width: 22px;
+  }
+  .hero2 h6
+  {
+    margin-top: 20px;
+    font-size: 8px;
+  }
+  .hero2 a
+  {
+    font-size: 7px;
+  }
+}
+
+/* membuat responsif dari 576px sampai 768 */
+@media (min-width: 576px) 
+{
+  .hero
+  {
+    width: 380px;
+  }
+  .hero h1
+  {
+    font-size: 20px;
+  }
+  .form
+  {
+    font-size: 13px;
+    width: 320px;
+    margin-left: 20px;
+  }
+  .btn
+  {
+    width: 320px;
+  }
+  .hero input
+  {
+    font-size: 11px;
+  }
+  .hero1
+  {
+    height: 800px;
+  }
+  .hero1 address
+  {
+    font-size: 14px;
+  }
+  .hero1 h1
+  {
+    font-size: 25px;
+  }
+  .hero1 h5
+  {
+    font-size: 17px;
+  }
+  .hero1 ul
+  {
+    font-size: 14px;
+  }
+  .gambar1
+  {
+    margin-left: 85px;
+    width: 23px;
+  }
+  .gambar2
+  {
+    margin-left: 85px;
+    width: 21px;
+  }
+  .gambar3
+  {
+    margin-left: 85px;
+    width: 22px;
+  }
+  .hero1 p
+  {
+    font-size: 17px;
+    margin-left: 113px;
+  }
+  .gambar4
+  {
+    width: 25px;
+  }
+  .gambar5
+  {
+    width: 24px;
+  }
+  .gambar6
+  {
+    width: 29px;
+  }
+  .hero2 h6
+  {
+    margin-top: 17px;
+    font-size: 10px;
+  }
+  .hero2 a
+  {
+    font-size: 10px;
+  }
+}
+
+/* membuat responsif dari 768px sampai 992px */
+@media (min-width: 768px) 
+{
+  .hero
+  {
+    width: 530px;
+  }
+  .hero h1
+  {
+    font-size: 25px;
+  }
+  .form
+  {
+    font-size: 14px;
+    width: 450px;
+    margin-left: 30px;
+  }
+  .btn
+  {
+    width: 450px;
+  }
+  .hero input
+  {
+    font-size: 12px;
+  }
+  .hero1
+  {
+    height: 430px;
+  }
+  .hero1 address
+  {
+    font-size: 12px;
+  }
+  .hero1 h5
+  {
+    font-size: 14px;
+  }
+  .hero1 ul
+  {
+    font-size: 12px;
+  }
+  .gambar1
+  {
+    margin-left: 10px;
+    width: 20px;
+  }
+  .gambar2
+  {
+    margin-left: 10px;
+    width: 16px;
+  }
+  .gambar3
+  {
+    margin-left: 10px;
+    width: 17px;
+  }
+  .hero1 p
+  {
+    font-size: 12px;
+    margin-left: 35px;
+  }
+  .gambar4
+  {
+    width: 20px;
+  }
+  .gambar5
+  {
+    width: 20px;
+  }
+  .gambar6
+  {
+    width: 25px;
+  }
+  .hero2 h6
+  {
+    margin-top: 21px;
+    font-size: 13px;
+  }
+  .hero2 a
+  {
+    font-size: 13px;
+  }
+}
+
+/* membuat responsif dari 992px sampai 1200px */
+@media (min-width: 992px) 
+{
+  .hero
+  {
+    width: 680px;
+  }
+  .hero h1
+  {
+    font-size: 30px;
+  }
+  .form
+  {
+    font-size: 15px;
+    width: 570px;
+    margin-left: 50px;
+  }
+  .btn
+  {
+    width: 570px;
+  }
+  .hero input
+  {
+    font-size: 13px;
+  }
+  .hero1
+  {
+    height: 460px;
+  }
+  .hero1 address
+  {
+    font-size: 15px;
+  }
+  .hero1 h5
+  {
+    font-size: 19px;
+  }
+  .hero1 ul
+  {
+    font-size: 15px;
+  }
+  .gambar1
+  {
+    margin-left: 10px;
+    width: 25px;
+  }
+  .gambar2
+  {
+    margin-left: 10px;
+    width: 21px;
+  }
+  .gambar3
+  {
+    margin-left: 10px;
+    width: 22px;
+  }
+  .hero1 p
+  {
+    font-size: 15px;
+    margin-left: 40px;
+  }
+  .gambar4
+  {
+    width: 28px;
+  }
+  .gambar5
+  {
+    width: 28px;
+  }
+  .gambar6
+  {
+    width: 35px;
+  }
+  .hero2 h6
+  {
+    margin-top: 22px;
+    font-size: 15px;
+  }
+  .hero2 a
+  {
+    font-size: 15px;
+  }
+}
+
+/* membuat responsif dari 1200px sampai 1400px */
+@media (min-width: 1200px) 
+{
+  .hero
+  {
+    width: 830px;
+  }
+  .hero h1
+  {
+    font-size: 35px;
+  }
+  .form
+  {
+    font-size: 16px;
+    width: 700px;
+    margin-left: 60px;
+  }
+  .btn
+  {
+    width: 700px;
+  }
+  .hero input
+  {
+    font-size: 14px;
+  }
+  .hero1
+  {
+    height: 450px;
+  }
+  .gambar1
+  {
+    margin-left: 10px;
+    width: 30px;
+  }
+  .gambar2
+  {
+    margin-left: 10px;
+    width: 26px;
+  }
+  .gambar3
+  {
+    margin-left: 10px;
+    width: 27px;
+  }
+  .hero1 p
+  {
+    margin-left: 45px;
+  }
+  .gambar4
+  {
+    width: 30px;
+  }
+  .gambar5
+  {
+    width: 30px;
+  }
+  .gambar6
+  {
+    width: 37px;
+  }
+}
+@media (min-width: 1400px) 
+{
+  .hero
+  {
+    width: 980px;
+  }
+  .hero h1
+  {
+    font-size: 40px;
+  }
+  .form
+  {
+    font-size: 17px;
+    width: 820px;
+    margin-left: 70px;
+  }
+  .btn
+  {
+    width: 820px;
+  }
+  .hero input
+  {
+    font-size: 15px;
+  }
+  .hero1
+  {
+    height: 450px;
+  }
+  .gambar1
+  {
+    margin-left: 10px;
+    width: 30px;
+  }
+  .gambar2
+  {
+    margin-left: 10px;
+    width: 26px;
+  }
+  .gambar3
+  {
+    margin-left: 10px;
+    width: 27px;
+  }
+  .hero1 p
+  {
+    margin-left: 45px;
+  }
+  .gambar4
+  {
+    width: 30px;
+  }
+  .gambar5
+  {
+    width: 30px;
+  }
+  .gambar6
+  {
+    width: 35px;
+  }
+}
+
