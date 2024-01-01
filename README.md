@@ -88,7 +88,7 @@ Terima kasih telah mengunjungi situs web IT Consult. Kami berharap Anda menemuka
 - Mohammad Raihan Azhar 4522210048
 
 ## Mockup dan Wireframe kami
-[https://www.figma.com/file/YJnKIl0l0JRCs4xEqCDSDD/Desain-Web?type=design&node-id=0%3A1&mode=design&t=pQXzeOrLfMnOlR2j-1](https://www.figma.com/file/X768sdv3K9bPwD69qg7Puy/TUGAS-BESAR-DESAIN-WEB?type=design&node-id=42-556&mode=design&t=3rMjneiJK1lGcBcL-0)https://www.figma.com/file/X768sdv3K9bPwD69qg7Puy/TUGAS-BESAR-DESAIN-WEB?type=design&node-id=42-556&mode=design&t=3rMjneiJK1lGcBcL-0 
+https://www.figma.com/file/X768sdv3K9bPwD69qg7Puy/TUGAS-BESAR-DESAIN-WEB?type=design&node-id=42%3A556&mode=design&t=W6TDfOgYovvIPxDj-1
 
 ## Tree Website ITConsult 
 https://drive.google.com/file/d/18zaBjr-sBqj_vp9T_T__N9X9sTx9UOaG/view?usp=sharing
